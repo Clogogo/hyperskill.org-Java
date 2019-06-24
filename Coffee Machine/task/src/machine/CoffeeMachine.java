@@ -4,87 +4,208 @@ import java.util.Scanner;
 
 public class CoffeeMachine {
 
+    private static Scanner input = new Scanner(System.in);
 
+
+    private static int water = 1200;
+    private static int milk = 540;
+    private static int coffee = 120;
+    private static int disposable = 9;
+    private static int money = 550;
+
+
+    public static int getWater() {
+        return water;
+    }
+
+    public static void setWater(int water) {
+        CoffeeMachine.water = water;
+    }
+
+    public static int getMilk() {
+        return milk;
+    }
+
+    public static void setMilk(int milk) {
+        CoffeeMachine.milk = milk;
+    }
+
+    public static int getCoffee() {
+        return coffee;
+    }
+
+    public static void setCoffee(int coffee) {
+        CoffeeMachine.coffee = coffee;
+    }
+
+    public static int getDisposable() {
+        return disposable;
+    }
+
+    public static void setDisposable(int disposable) {
+        CoffeeMachine.disposable = disposable;
+    }
+
+    public static int getMoney() {
+        return money;
+    }
+
+    public static void setMoney(int money) {
+        CoffeeMachine.money = money;
+    }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int water = 1200;
-        int milk = 540;
-        int coffeeBeans = 120;
-        int cups = 9;
-        int money = 550;
+        String action;
+        CoffeeMachine machine = new CoffeeMachine();
 
-        System.out.println("The coffee machine has:");
-        System.out.println(water +" of water");
-        System.out.println(milk + " of milk");
-        System.out.println(coffeeBeans +" of coffee beans");
-        System.out.println(cups + " of disposable cups");
-        System.out.println(money + " of money");
+        machine.showInfo();
+
 
         System.out.println();
         System.out.print("Write action (buy, fill, take): ");
-        String action = scanner.nextLine();
-        switch(action){
-            case "buy":{
-                System.out.print("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
-                int action1 = scanner.nextInt();
-                System.out.println();
-                switch (action1) {
-                    case 1:{
-                        water -= 250;
-                        coffeeBeans -= 16;
-                        cups--;
-                        money += 4;
-                        break;
-                    }
-                    case 2:{
-                        water -= 350;
-                        milk -= 75;
-                        coffeeBeans -= 20;
-                        cups--;
-                        money += 7;
-                        break;
-                    }
-                    case 3:{
-                        water -=200;
-                        milk -= 100;
-                        coffeeBeans -= 12;
-                        cups--;
-                        money += 6;
-                        break;
-                    }
-                }
-                break;
-            }
-            case "fill":{
-                System.out.print("Write how many ml of water do you want to add: ");
-                int water1 = scanner.nextInt();
-                System.out.print("Write how many ml of milk do you want to add: ");
-                int milk1 = scanner.nextInt();
-                System.out.print("Write how many grams of coffee beans do you want to add: ");
-                int coffeeBeans1 = scanner.nextInt();
-                System.out.print("Write how many disposable cups of coffee do you want to add: ");
-                int cups1 = scanner.nextInt();
 
-                water += water1;
-                milk += milk1;
-                coffeeBeans += coffeeBeans1;
-                cups += cups1;
-                break;
-            }
-            case "take":{
-                System.out.println("I gave you $"+ money);
-                money = 0;
-                break;
-            }
+        action = input.nextLine().toLowerCase();
+
+        if (action.contains("fill")) {
+            machine.fill();
+        } else if (action.contains("buy")) {
+            machine.buy();
+        } else if (action.contains("take")) {
+            machine.take();
+        } else {
+            System.out.println("Wrong entry ");
         }
-        System.out.println();
-        System.out.println("The coffee machine has:");
-        System.out.println(water +" of water");
-        System.out.println(milk + " of milk");
-        System.out.println(coffeeBeans +" of coffee beans");
-        System.out.println(cups + " of disposable cups");
-        System.out.println(money + " of money");
+
     }
+
+    // Showing information about the machine
+    public final void showInfo() {
+        System.out.println();
+        System.out.print("The Coffee Machine has :  ");
+        System.out.println("\n" + getWater() + " of water " + "\n" + getMilk() + " of milk" + "\n" + getCoffee() + " of coffee beans "
+                + "\n" + getDisposable() + "  of Disposable cups" + "\n" + getMoney() + " of money");
+    }
+
+    // filling the machine with Needed items
+
+    public final  void fill() {
+        int waterEntered;
+        int milkEntered;
+        int coffeeEntered;
+        int disposableEntered;
+
+        System.out.print("Write how many ml of water do you want to add: ");
+        waterEntered = input.nextInt();
+        int waterTotol = waterEntered + getWater();
+        setWater(waterTotol);
+        System.out.print("Write how many ml of milk do you want to add: ");
+        milkEntered = input.nextInt();
+        int milkTotal = milkEntered + getMilk();
+        setMilk(milkTotal);
+        System.out.print("Write how many grams of coffee beans do you want to add:");
+        coffeeEntered = input.nextInt();
+        int coffeeTotal = coffeeEntered + getCoffee();
+        setCoffee(coffeeTotal);
+        System.out.print("Write how many disposable cups of coffee do you want to add:");
+        disposableEntered = input.nextInt();
+        int dispo = disposableEntered + getDisposable();
+        setDisposable(dispo);
+
+        showInfo();
+
+
+    }
+
+    // Taking money from the machine
+
+    public final  void take() {
+        System.out.println("I gave you $" + getMoney());
+        int moneyTotal = 0;
+        setMoney(moneyTotal);
+        showInfo();
+
+    }
+
+    public final  void buy() {
+        int typeOfCoffee;
+        int dispo;
+        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
+        typeOfCoffee = input.nextInt();
+        dispo = getDisposable()-1;
+        setDisposable(dispo);
+        if (typeOfCoffee == 1) {
+            espresso();
+        } else if (typeOfCoffee == 2) {
+            latte();
+
+        } else if (typeOfCoffee == 3) {
+            cappuccino();
+        }
+        showInfo();
+    }
+
+    // Coffee type 1
+    private static void espresso() {
+        int waterNeeded = 250;
+        int coffeeNeeded = 16;
+        int price = 4;
+        int waterused;
+        int coffeeused;
+        int moneyPaid;
+
+        waterused = getWater() - waterNeeded;
+        setWater(waterused);
+        coffeeused = getCoffee() - coffeeNeeded;
+        setCoffee(coffeeused);
+        moneyPaid = getMoney() + price;
+        setMoney(moneyPaid);
+
+    }
+
+    // Coffee type 2
+    private static void latte() {
+        int waterNeeded = 350;
+        int milkNeeded = 75;
+        int coffeeNeeded = 20;
+        int price = 7;
+        int waterused;
+        int coffeeused;
+        int moneyPaid;
+        int milkused;
+
+        waterused = getWater() - waterNeeded;
+        setWater(waterused);
+        coffeeused = getCoffee() - coffeeNeeded;
+        setCoffee(coffeeused);
+        milkused = getMilk() - milkNeeded;
+        setMilk(milkused);
+        moneyPaid = getMoney() + price;
+        setMoney(moneyPaid);
+
+
+    }
+
+    //Coffee type 3
+    private static void cappuccino() {
+        int waterNeeded = 200;
+        int milkNeeded = 100;
+        int coffeeNeeded = 12;
+        int price = 6;
+        int waterused;
+        int coffeeused;
+        int moneyPaid;
+        int milkused;
+
+        waterused = getWater() - waterNeeded;
+        setWater(waterused);
+        coffeeused = getCoffee() - coffeeNeeded;
+        setCoffee(coffeeused);
+        milkused = getMilk() - milkNeeded;
+        setMilk(milkused);
+        moneyPaid = getMoney() + price;
+        setMoney(moneyPaid);
+
+    }
+
+
 }
-U4
