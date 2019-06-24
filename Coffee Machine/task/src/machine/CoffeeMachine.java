@@ -88,7 +88,7 @@ public class CoffeeMachine {
 
     // filling the machine with Needed items
 
-    public final  void fill() {
+    public final void fill() {
         int waterEntered;
         int milkEntered;
         int coffeeEntered;
@@ -96,20 +96,21 @@ public class CoffeeMachine {
 
         System.out.print("Write how many ml of water do you want to add: ");
         waterEntered = input.nextInt();
-        int waterTotol = waterEntered + getWater();
-        setWater(waterTotol);
+
+        water +=waterEntered;
+        setWater(water);
         System.out.print("Write how many ml of milk do you want to add: ");
         milkEntered = input.nextInt();
-        int milkTotal = milkEntered + getMilk();
-        setMilk(milkTotal);
+        milk += milkEntered;
+        setMilk(milk);
         System.out.print("Write how many grams of coffee beans do you want to add:");
         coffeeEntered = input.nextInt();
-        int coffeeTotal = coffeeEntered + getCoffee();
-        setCoffee(coffeeTotal);
+        coffee += coffeeEntered;
+        setCoffee(coffee);
         System.out.print("Write how many disposable cups of coffee do you want to add:");
         disposableEntered = input.nextInt();
-        int dispo = disposableEntered + getDisposable();
-        setDisposable(dispo);
+        disposable += disposableEntered;
+        setDisposable(disposable);
 
         showInfo();
 
@@ -118,7 +119,7 @@ public class CoffeeMachine {
 
     // Taking money from the machine
 
-    public final  void take() {
+    public final void take() {
         System.out.println("I gave you $" + getMoney());
         int moneyTotal = 0;
         setMoney(moneyTotal);
@@ -126,13 +127,13 @@ public class CoffeeMachine {
 
     }
 
-    public final  void buy() {
+    public final void buy() {
         int typeOfCoffee;
         int dispo;
         System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
         typeOfCoffee = input.nextInt();
-        dispo = getDisposable()-1;
-        setDisposable(dispo);
+        disposable--;
+        setDisposable(disposable);
         if (typeOfCoffee == 1) {
             espresso();
         } else if (typeOfCoffee == 2) {
@@ -146,40 +147,26 @@ public class CoffeeMachine {
 
     // Coffee type 1
     private static void espresso() {
-        int waterNeeded = 250;
-        int coffeeNeeded = 16;
-        int price = 4;
-        int waterused;
-        int coffeeused;
         int moneyPaid;
-
-        waterused = getWater() - waterNeeded;
-        setWater(waterused);
-        coffeeused = getCoffee() - coffeeNeeded;
-        setCoffee(coffeeused);
-        moneyPaid = getMoney() + price;
+        water -= 250;
+        setWater(water);
+        coffee -= 16;
+        setCoffee(coffee);
+        moneyPaid = getMoney() + 4;
         setMoney(moneyPaid);
 
     }
 
     // Coffee type 2
     private static void latte() {
-        int waterNeeded = 350;
-        int milkNeeded = 75;
-        int coffeeNeeded = 20;
-        int price = 7;
-        int waterused;
-        int coffeeused;
         int moneyPaid;
-        int milkused;
-
-        waterused = getWater() - waterNeeded;
-        setWater(waterused);
-        coffeeused = getCoffee() - coffeeNeeded;
-        setCoffee(coffeeused);
-        milkused = getMilk() - milkNeeded;
-        setMilk(milkused);
-        moneyPaid = getMoney() + price;
+        water -= 350;
+        setWater(water);
+        coffee -= 20;
+        setCoffee(coffee);
+        milk -= 75;
+        setMilk(milk);
+        moneyPaid = getMoney() + 7;
         setMoney(moneyPaid);
 
 
@@ -187,22 +174,15 @@ public class CoffeeMachine {
 
     //Coffee type 3
     private static void cappuccino() {
-        int waterNeeded = 200;
-        int milkNeeded = 100;
-        int coffeeNeeded = 12;
-        int price = 6;
-        int waterused;
-        int coffeeused;
         int moneyPaid;
-        int milkused;
 
-        waterused = getWater() - waterNeeded;
-        setWater(waterused);
-        coffeeused = getCoffee() - coffeeNeeded;
-        setCoffee(coffeeused);
-        milkused = getMilk() - milkNeeded;
-        setMilk(milkused);
-        moneyPaid = getMoney() + price;
+        water -= 200;
+        setWater(water);
+        coffee -= 12;
+        setCoffee(coffee);
+        milk -= 100;
+        setMilk(milk);
+        moneyPaid = getMoney() + 6;
         setMoney(moneyPaid);
 
     }
