@@ -1,70 +1,90 @@
 package machine;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class CoffeeMachine {
 
 
-    private static int waterRequirement = 200;
-    private static int milkRequirement = 50;
-    private static int coffeeRequirement = 15;
-
 
     public static void main(String[] args) {
-        // define constant object with fixed values to
-        // fit the requirements to make one cup of coffee as showned below
-        // "Like in the previous stage, the coffee machine needs 200 ml of water,
-        // 50 ml of milk, and 15 g of coffee beans to make one cup of coffee."
+        Scanner scanner = new Scanner(System.in);
+        int water = 1200;
+        int milk = 540;
+        int coffeeBeans = 120;
+        int cups = 9;
+        int money = 550;
 
+        System.out.println("The coffee machine has:");
+        System.out.println(water +" of water");
+        System.out.println(milk + " of milk");
+        System.out.println(coffeeBeans +" of coffee beans");
+        System.out.println(cups + " of disposable cups");
+        System.out.println(money + " of money");
 
-        // make an object that contain the result;
-        // object should contain values suck as
+        System.out.println();
+        System.out.print("Write action (buy, fill, take): ");
+        String action = scanner.nextLine();
+        switch(action){
+            case "buy":{
+                System.out.print("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
+                int action1 = scanner.nextInt();
+                System.out.println();
+                switch (action1) {
+                    case 1:{
+                        water -= 250;
+                        coffeeBeans -= 16;
+                        cups--;
+                        money += 4;
+                        break;
+                    }
+                    case 2:{
+                        water -= 350;
+                        milk -= 75;
+                        coffeeBeans -= 20;
+                        cups--;
+                        money += 7;
+                        break;
+                    }
+                    case 3:{
+                        water -=200;
+                        milk -= 100;
+                        coffeeBeans -= 12;
+                        cups--;
+                        money += 6;
+                        break;
+                    }
+                }
+                break;
+            }
+            case "fill":{
+                System.out.print("Write how many ml of water do you want to add: ");
+                int water1 = scanner.nextInt();
+                System.out.print("Write how many ml of milk do you want to add: ");
+                int milk1 = scanner.nextInt();
+                System.out.print("Write how many grams of coffee beans do you want to add: ");
+                int coffeeBeans1 = scanner.nextInt();
+                System.out.print("Write how many disposable cups of coffee do you want to add: ");
+                int cups1 = scanner.nextInt();
 
-        // variables decleared below can remain for Accepting user inputs
-        int cups;
-        int water;
-        int milk;
-        int coffee;
-
-
-        /// collect values for variables above
-        Scanner input = new Scanner(System.in);
-
-// accept input
-
-        System.out.print("Write how many ml of water the coffee machine has: ");
-        water = input.nextInt();
-        System.out.print("Write how many ml of milk the coffee machine has: ");
-        milk = input.nextInt();
-        System.out.print("Write how many grams of coffee beans the coffee machine has: ");
-        coffee = input.nextInt();
-        System.out.print("Write how many cups of coffee you will need: ");
-        cups = input.nextInt();
-
-        int milkAvail = milk / milkRequirement;
-        int waterAvail = water / waterRequirement;
-        int coffeeAvail = coffee / coffeeRequirement;
-        // calculate
-        int[] maxValve = {milkAvail, waterAvail, coffeeAvail};
-        Arrays.sort(maxValve);
-
-
-        int numOfcupsAva = maxValve[0];
-
-        //int numOfcupsAva = milkAvail + waterAvail + coffeeAvail / 3;
-        //If else Option
-
-
-        if (numOfcupsAva == cups) {
-            System.out.println("Yes, I can make that amount of coffee");
-        } else if (numOfcupsAva > cups) {
-            int makeMore = numOfcupsAva - cups;
-            System.out.println("Yes, I can make that amount of coffee (and even " + makeMore + " more than that)");
-        } else {
-            System.out.println("No, I can make only " + numOfcupsAva + "  cup(s) of coffee");
+                water += water1;
+                milk += milk1;
+                coffeeBeans += coffeeBeans1;
+                cups += cups1;
+                break;
+            }
+            case "take":{
+                System.out.println("I gave you $"+ money);
+                money = 0;
+                break;
+            }
         }
+        System.out.println();
+        System.out.println("The coffee machine has:");
+        System.out.println(water +" of water");
+        System.out.println(milk + " of milk");
+        System.out.println(coffeeBeans +" of coffee beans");
+        System.out.println(cups + " of disposable cups");
+        System.out.println(money + " of money");
     }
-
-
 }
+U4
