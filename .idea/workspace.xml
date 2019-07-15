@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" afterDir="false" />
-    </list>
+    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="Task 5 Solved" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#2946#2947#0" expanded="true" />
+                <element signature="e#2990#2991#0" expanded="true" />
+                <element signature="e#4041#4042#0" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,7 +36,9 @@
         <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="1530">
+                <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -41,7 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task3" />
+        <entry key="$PROJECT_DIR$" value="task4" />
       </map>
     </option>
     <favorite-branches>
@@ -66,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="140" />
     <option name="y" value="40" />
     <option name="width" value="1400" />
@@ -230,7 +239,7 @@
       <workItem from="1561426609303" duration="3223000" />
       <workItem from="1562387479371" duration="4723000" />
       <workItem from="1562477863851" duration="595000" />
-      <workItem from="1563087372662" duration="609000" />
+      <workItem from="1563087372662" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3 Solved">
       <created>1561295415879</created>
@@ -274,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561342553661</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 5 Solved">
+      <created>1563131164122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563131164122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13435000" />
+    <option name="totallyTimeSpent" value="14831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +306,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="32" width="1120" height="792" extended-state="1" />
+    <frame x="112" y="32" width="1120" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1764151" />
@@ -337,21 +353,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 3 Solved" />
     <MESSAGE value="Task 4 Solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Solved" />
+    <MESSAGE value="Task 5 Solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Solved" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="1530">
+            <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#2946#2947#0" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#4041#4042#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
