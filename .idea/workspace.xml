@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="Task 5 Solved and Task 6 solved">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="88" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,11 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="238">
+                <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -52,7 +61,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task4" />
+        <entry key="$PROJECT_DIR$" value="task5andtask6" />
       </map>
     </option>
     <favorite-branches>
@@ -74,6 +83,7 @@
       <list>
         <option value="$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md" />
         <option value="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" />
+        <option value="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md" />
       </list>
     </option>
   </component>
@@ -96,6 +106,32 @@
             <path>
               <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Coffee Machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Coffee Machine" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Coffee Machine" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Coffee Machine" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="machine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +290,7 @@
       <workItem from="1562477863851" duration="595000" />
       <workItem from="1563087372662" duration="2005000" />
       <workItem from="1563152822310" duration="173000" />
-      <workItem from="1563153055713" duration="2916000" />
+      <workItem from="1563153055713" duration="4294000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3 Solved">
       <created>1561295415879</created>
@@ -312,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563153187585</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Simple chatty bot task 1">
+      <created>1563180927217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563180927217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17920000" />
+    <option name="totallyTimeSpent" value="19298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,7 +372,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -339,7 +381,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
-      <window_info id="DB Browser" order="8" />
+      <window_info id="DB Browser" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
@@ -377,13 +419,24 @@
     <MESSAGE value="Task 4 Solved" />
     <MESSAGE value="Task 5 Solved" />
     <MESSAGE value="Task 5 Solved and Task 6 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Solved and Task 6 solved" />
+    <MESSAGE value="Simple chatty bot task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple chatty bot task 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -394,16 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="417">
-            <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -411,10 +454,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md">
+    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor>
+            <caret selection-end-line="88" selection-end-column="10" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
