@@ -1,32 +1,29 @@
-Stage #2: How old are you?
+Stage #3: Let’s count!
 
 Description
 
-At this stage, you will introduce yourself to the bot. He will greet you by your name and then try to guess your age using arithmetic operations.
+At this stage, you will program the bot to count from 0 to any positive number you entered.
 
-Your program must print the following lines:
-
-Hello! My name is Aid.
-I was created in 2018.
-Please, remind me your name.
-What a great name you have, {yourName}!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-Your age is 22; that's a good time to start programming!
-You may change the name and the creation year of your bot if you want.
-
-Instead of {yourName}, the bot must print your name entered from the standard input. Instead of {yourAge}, the bot must determine your age according to the following formula:
-
-age = ((age % 3) * 70 + (age % 5) * 21 + (age % 7) * 15) % 105
-Here is an example of a dialogue with the bot. Input lines are started with ">" symbol. You do not need to read this symbol.
+Here is an example of a dialogue with the new version of the bot. Input lines are started with ">" symbol.
 
 Hello! My name is Aid.
 I was created in 2018.
 Please, remind me your name.
-> Max
+> Max​​​​​​​
 What a great name you have, Max!
 Let me guess your age.
 Say me remainders of dividing your age by 3, 5 and 7.
 > 1 2 1
 Your age is 22; that's a good time to start programming!
-Use the provided template to simplify your work. You can change the text, but not the number of printed lines.
+Now I will prove to you that I can count to any number you want.
+> 5
+0!
+1!
+2!
+3!
+4!
+5!
+Completed, have a nice day!
+Note, each number starts with a new line, and after a number, the bot should print the exclamation mark. Do not output any extra characters in these lines with numbers.
+
+Use the provided template to simplify your work. You can change the text if you want, but be especially careful with counting numbers.

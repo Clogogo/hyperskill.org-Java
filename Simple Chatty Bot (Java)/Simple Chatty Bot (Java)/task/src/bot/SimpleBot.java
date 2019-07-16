@@ -27,9 +27,16 @@ public class SimpleBot {
         ans1 = input.nextInt();
         ans2 = input.nextInt();
 
-        input.close();
+
         int calAge = ((ans % 3) * 70 + (ans1 % 5) * 21 + (ans2 % 7) * 15) % 105;
         System.out.println("Your age is " + calAge + "; that's a good time to start programming!");
+
+        System.out.println("Now I will prove to you that I can count to any number you want : ");
+        int number = input.nextInt();
+        for (int i = 0; i <= number; i++) {
+            System.out.println(+i + "!");
+        }
+        System.out.println("completed, have a nice day!");
 
     }
 }
