@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="Simple chatty bot task 3">
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/classes/java/test/PersonalAssistantTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/classes/PersonalAssistantTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/test-results/test/TEST-PersonalAssistantTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/tmp/test/jar_extract_13249476824376040158_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/test/PersonalAssistantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/task/src/bot/Tic-Tac-Toe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" afterDir="false" />
+    <list default="true" id="80673848-3978-400b-9753-c5fe6650969d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBotcont.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +60,7 @@
       <recent name="C:\Users\ogogo\IdeaProjects\hyperskill.org-Java\Simple Chatty Bot (Java)\task\src\bot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ogogo\IdeaProjects\hyperskill.org-Java\Simple Chatty Bot (Java)\Simple Chatty Bot (Java)\task\src\bot" />
       <recent name="C:\Users\ogogo\IdeaProjects\hyperskill.org-Java" />
     </key>
   </component>
@@ -194,7 +180,7 @@
       <workItem from="1566319095543" duration="46000" />
       <workItem from="1566319161630" duration="2048000" />
       <workItem from="1566329987504" duration="3030000" />
-      <workItem from="1567135570993" duration="964000" />
+      <workItem from="1567135570993" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3 Solved">
       <created>1561295415879</created>
@@ -294,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563287499997</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Simple chatty bot task 3">
+      <created>1567136773596</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567136773596</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -329,9 +322,9 @@
     <MESSAGE value="Task 5 Solved and Task 6 solved" />
     <MESSAGE value="Simple chatty bot task 1" />
     <MESSAGE value="Simple chatty bot task 2" />
-    <MESSAGE value="Simple chatty bot task 3" />
     <MESSAGE value="Simple chatty bot task 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple chatty bot task 4" />
+    <MESSAGE value="Simple chatty bot task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple chatty bot task 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hyperskill_org_Java$coffee_app.ic" NAME="coffee app Coverage Results" MODIFIED="1564602363613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
