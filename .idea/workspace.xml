@@ -15,7 +15,9 @@
       <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/test-results/test/binary/results.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/build/tmp/test/jar_extract_13249476824376040158_tmp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/test/PersonalAssistantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/task/src/bot/Tic-Tac-Toe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,38 +28,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="476">
-                <caret line="28" column="134" selection-start-line="28" selection-start-column="134" selection-end-line="28" selection-end-column="134" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="bot_task2" />
-      </map>
-    </option>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -71,90 +42,41 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bot_task_4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md" />
-        <option value="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" />
-        <option value="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md" />
-        <option value="$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="40" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hyperskill.org-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hyperskill.org-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple Chatty Bot (Java)" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Oe5bv1YH0PjWKnezpbxgjrprDs" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/Simple Chatty Bot (Java)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Simple Chatty Bot (Java)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Simple Chatty Bot (Java)/task/src/bot" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ogogo\IdeaProjects\hyperskill.org-Java\Simple Chatty Bot (Java)\task\src\bot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ogogo\IdeaProjects\hyperskill.org-Java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,7 +181,20 @@
       <workItem from="1562477863851" duration="595000" />
       <workItem from="1563087372662" duration="2005000" />
       <workItem from="1563152822310" duration="173000" />
-      <workItem from="1563153055713" duration="7743000" />
+      <workItem from="1563153055713" duration="9188000" />
+      <workItem from="1563287666915" duration="1810000" />
+      <workItem from="1563661331390" duration="596000" />
+      <workItem from="1563975014016" duration="597000" />
+      <workItem from="1564325304549" duration="1301000" />
+      <workItem from="1564555534907" duration="4423000" />
+      <workItem from="1564814583445" duration="1270000" />
+      <workItem from="1566318102850" duration="482000" />
+      <workItem from="1566318606497" duration="100000" />
+      <workItem from="1566318726849" duration="348000" />
+      <workItem from="1566319095543" duration="46000" />
+      <workItem from="1566319161630" duration="2048000" />
+      <workItem from="1566329987504" duration="3030000" />
+      <workItem from="1567135570993" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="Task 3 Solved">
       <created>1561295415879</created>
@@ -345,11 +280,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563258265220</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Simple chatty bot task 3">
+      <created>1563259012232</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563259012232</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Simple chatty bot task 4">
+      <created>1563287499997</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563287499997</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,50 +306,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info id="DB Browser" order="8" weight="0.3295302" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32707775" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32841823" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32841823" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32928678" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="14" />
-      <window_info anchor="bottom" id="Analysis" order="15" />
-      <window_info anchor="bottom" id="SonarLint" order="16" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven-2 Build" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 3 Solved" />
@@ -413,136 +330,10 @@
     <MESSAGE value="Simple chatty bot task 1" />
     <MESSAGE value="Simple chatty bot task 2" />
     <MESSAGE value="Simple chatty bot task 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple chatty bot task 3" />
+    <MESSAGE value="Simple chatty bot task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple chatty bot task 4" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-595">
-            <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="232" column="24" selection-start-line="232" selection-start-column="24" selection-end-line="232" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="28" column="134" selection-start-line="28" selection-start-column="134" selection-end-line="28" selection-end-column="134" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Chatty Bot (Java)/Simple Chatty Bot (Java)/task/src/bot/SimpleBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hyperskill.org-Java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hyperskill_org_Java$coffee_app.ic" NAME="coffee app Coverage Results" MODIFIED="1564602363613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
