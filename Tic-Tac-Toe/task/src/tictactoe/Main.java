@@ -13,33 +13,35 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean ans = false;
 
-        Main s3c = new Main();
+        Main tic = new Main();
         String readXO;
 
         Scanner input = new Scanner(System.in);
 
-
         System.out.print("Enter cells :");
+
         readXO = input.nextLine().toUpperCase();
-        s3c.countXO(readXO);
-        if ((s3c.keepNumberO == 3 && s3c.keepNumberX == 3 && s3c.keepNumberSpace <= 2) || (s3c.keepNumberO > s3c.keepNumberX && s3c.keepNumberSpace == 2) || (s3c.keepNumberX > s3c.keepNumberO && s3c.keepNumberSpace == 2) ||
-                (s3c.keepNumberX > s3c.keepNumberO && s3c.keepNumberSpace > 2) || s3c.keepNumberO > s3c.keepNumberX && s3c.keepNumberSpace > 2) {
-            s3c.print_Output(readXO);
+        tic.countXO(readXO);
+
+        if ((tic.keepNumberO == 3 && tic.keepNumberX == 3 && tic.keepNumberSpace <= 2) || (tic.keepNumberO > tic.keepNumberX && tic.keepNumberSpace == 2) || (tic.keepNumberX > tic.keepNumberO && tic.keepNumberSpace == 2) ||
+                (tic.keepNumberX > tic.keepNumberO && tic.keepNumberSpace > 2) || tic.keepNumberO > tic.keepNumberX && tic.keepNumberSpace > 2) {
+            tic.print_Output(readXO);
             System.out.println("Impossible");
-        } else if (readXO.contains("_") && !(s3c.condition_win(readXO))) {
-            s3c.print_Output(readXO);
+
+        } else if (readXO.contains("_") && !(tic.condition_win(readXO))) {
+            tic.print_Output(readXO);
             System.out.println("Game not finished");
-        } else if (!(readXO.contains("_")) && !(s3c.condition_win(readXO))) {
-            s3c.print_Output(readXO);
+
+        }
+        else if (!(readXO.contains("_")) && !(tic.condition_win(readXO))) {
+            tic.print_Output(readXO);
             System.out.println("Draw");
 
-
-        } else if (s3c.keepNumberO == 3 || s3c.keepNumberX == 3 || !readXO.contains("_")) {
-            s3c.print_Output(readXO);
-            s3c.condition_win(readXO);
-            System.out.println(s3c.win + " wins");
+        } else if (tic.keepNumberO == 3 || tic.keepNumberX == 3 || !readXO.contains("_")) {
+            tic.print_Output(readXO);
+            tic.condition_win(readXO);
+            System.out.println(tic.win + " wins");
 
 
         }
@@ -52,7 +54,7 @@ public class Main {
     @
     @
     @ Parameter String readXO{}
-    @ checking for win or draw
+    @ checking for win
     @
     @
      */
