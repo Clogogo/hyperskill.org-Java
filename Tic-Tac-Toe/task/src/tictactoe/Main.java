@@ -18,26 +18,18 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         //Validating input
+        assert false;
         do {
 
             System.out.print("Enter cells :");
             try {
                 readXO = input.nextLine().toUpperCase();
-                char[] read = readXO.toCharArray();
-                for (char x : read
-                     ) {
-                    if(x != 'x' || x != 'O' ){
-                        System.out.println("Try Again");
-                    }
-                    System.out.println();
 
-                }
-
-            } catch (Exception e) {
+            } catch (Exception ignored) {
 
             }
         }
-        while (readXO.length() < 9 || readXO.length() > 9);
+        while (readXO.length() != 9);
 
 
         countXO(readXO);
