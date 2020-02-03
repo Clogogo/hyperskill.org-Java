@@ -6,49 +6,67 @@ import java.util.Scanner;
 public class Main {
 
 
-    char win;
-    int keepNumberX = 0;
-    int keepNumberO = 0;
-    int keepNumberSpace = 0;
+    static char win;
+    static int keepNumberX = 0;
+    static int keepNumberO = 0;
+    static int keepNumberSpace = 0;
 
     public static void main(String[] args) {
 
-
-        Main tic = new Main();
-        String readXO;
+        String readXO = null;
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter cells :");
+        //Validating input
+        do {
 
-        readXO = input.nextLine().toUpperCase();
-        tic.countXO(readXO);
+            System.out.print("Enter cells :");
+            try {
+                readXO = input.nextLine().toUpperCase();
+                char[] read = readXO.toCharArray();
+                for (char x : read
+                     ) {
+                    if(x != 'x' || x != 'O' ){
+                        System.out.println("Try Again");
+                    }
+                    System.out.println();
 
-        if ((tic.keepNumberO == 3 && tic.keepNumberX == 3 && tic.keepNumberSpace <= 2) || (tic.keepNumberO > tic.keepNumberX && tic.keepNumberSpace == 2) || (tic.keepNumberX > tic.keepNumberO && tic.keepNumberSpace == 2) ||
-                (tic.keepNumberX > tic.keepNumberO && tic.keepNumberSpace > 2) || tic.keepNumberO > tic.keepNumberX && tic.keepNumberSpace > 2) {
-            tic.print_Output(readXO);
+                }
+
+            } catch (Exception e) {
+
+            }
+        }
+        while (readXO.length() < 9 || readXO.length() > 9);
+
+
+        countXO(readXO);
+        if ((keepNumberO == 3 && keepNumberX == 3 && keepNumberSpace <= 2)
+                || (keepNumberO > keepNumberX && keepNumberSpace == 2)
+                || (keepNumberX > keepNumberO && keepNumberSpace == 2)
+                || (keepNumberX > keepNumberO && keepNumberSpace > 2)
+                || keepNumberO > keepNumberX && keepNumberSpace > 2) {
+            printOutput(readXO);
             System.out.println("Impossible");
 
-        } else if (readXO.contains("_") && !(tic.condition_win(readXO))) {
-            tic.print_Output(readXO);
+        } else if (readXO.contains("_") && !(conditionWin(readXO))) {
+            printOutput(readXO);
             System.out.println("Game not finished");
 
-        }
-        else if (!(readXO.contains("_")) && !(tic.condition_win(readXO))) {
-            tic.print_Output(readXO);
+        } else if (!(readXO.contains("_")) && !(conditionWin(readXO))) {
+            printOutput(readXO);
             System.out.println("Draw");
 
-        } else if (tic.keepNumberO == 3 || tic.keepNumberX == 3 || !readXO.contains("_")) {
-            tic.print_Output(readXO);
-            tic.condition_win(readXO);
-            System.out.println(tic.win + " wins");
+        } else if (keepNumberO == 3 || keepNumberX == 3 || !readXO.contains("_")) {
+            printOutput(readXO);
+            conditionWin(readXO);
+            System.out.println(win + " wins");
 
 
         }
 
 
     }
-
 
     /*
     @
@@ -58,7 +76,7 @@ public class Main {
     @
     @
      */
-    public Boolean condition_win(String readXO) {
+    static private Boolean conditionWin(String readXO) {
         char[] check = readXO.toCharArray();
         if (check[0] == check[1] && check[1] == check[2]) {
             win = check[1];
@@ -90,7 +108,7 @@ public class Main {
     }
 
     //counting X and O
-    public void countXO(String readXO) {
+    static private void countXO(String readXO) {
         char[] check = readXO.toCharArray();
         for (int i = 0; i < readXO.length(); i++) {
             String count = String.valueOf(check[i]);
@@ -110,7 +128,7 @@ public class Main {
 
 
     //Priniting output
-    private void print_Output(String readXO) {
+    static private void printOutput(String readXO) {
         char[] select = readXO.toCharArray();
         System.out.println("---------");
         System.out.println('|' + " " + select[0] + " " + select[1] + " " + select[2] + " " + '|');
