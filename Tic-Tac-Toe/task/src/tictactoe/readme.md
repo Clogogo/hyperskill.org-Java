@@ -1,93 +1,148 @@
-Stage #3: What's up on a field?
+
+
+
+
+
+
+Stage #4: First move!
 
 Description
 
-In this stage, you should analyze a Tic-Tac-Toe field. 
+Now you need to implement human moves.
 
-Note. In this stage either 'X' or 'O' can start the game.
+Suppose the bottom left cell has the coordinates (1, 1) and the top right cell has the coordinates (3, 3) like in this table:
 
-After printing the field, you need to find the state in which the game is at the moment. Possible states:
+(1, 3) (2, 3) (3, 3)
+(1, 2) (2, 2) (3, 2)
+(1, 1) (2, 1) (3, 1)
 
-"Game not finished" - when no side has a three in a row but the field has empty cells;
-"Draw" - when no side has a three in a row and the field has no empty cells;
-"X wins" - when the field has three X in a row;
-"O wins" - when the field has three O in a row;
-"Impossible" - when the field has three X in a row as well as three O in a row. Or the field has a lot more X's that O's or vice versa (if the difference is 2 or more, should be 1 or 0).
-Also, you can use ' ' or '_' to print empty cells - it's up to you.
+The program should work in the following way:
+
+Get the 3x3 field from the input as in the previous stages,
+Output this 3x3 field with cells before the user's move,
+Then ask the user about his next move,
+Then the user should input 2 numbers that represent the cell on which user wants to make his X or O. (9 symbols representing the field would be on the first line and these 2 numbers would be on the second line of the user input),
+Then output the table including the user's most recent move.
+Do not delete code that checks for table state; it will be useful in the future.
+
+Note that in this stage user moves as X, not O. Keep in mind that the first coordinate goes from left to right and the second coordinate goes from bottom to top. Also, notice that coordinates start with 1 and can be 1, 2 or 3.
+
+But what if the user enters incorrect coordinates? The user could enter symbols instead of numbers or enter coordinates representing occupied cells. You need to prevent all of that by checking a user's input and catching possible exceptions.
+
+The program should also check user input. If the user input is unsuitable, the program should ask him to enter coordinates again. 
+
+So, you need to output a field from the first line of the input and then ask the user to enter a move. Keep asking until the user enters coordinate that represents an empty cell on the field and after that output the field with that move. You should output the field only 2 times - before the move and after a legal move.
 
 Examples
 
-The examples below show outputs for some predefined states. Your program should work in the same way.
+The examples below shows how your program should work.
 
 Example 1:
 
-Enter cells: XXXOO__O_
+Enter cells: X_X_O____
 ---------
-| X X X |
-| O O _ |
-| _ O _ |
+| X   X |
+|   O   |
+|       |
 ---------
-X wins
-Example 2:
-
-Enter cells: XOXOXOXXO
+Enter the coordinates: 1 1
 ---------
-| X O X |
-| O X O |
-| X X O |
----------
-X wins
-Example 3:
-
-Enter cells: XOOOXOXXO
----------
-| X O O |
-| O X O |
-| X X O |
----------
-O wins
-Example 4:
-
-Enter cells: XOXOOXXXO
----------
-| X O X |
-| O O X |
-| X X O |
----------
-Draw
-Example 5:
-
-Enter cells: XO_OOX_X_
----------
-| X O   |
-| O O X |
-|   X   |
----------
-Game not finished
-Example 6:
-
-Enter cells: XO_XO_XOX
----------
-| X O _ |
-| X O _ |
-| X O X |
----------
-Impossible
-Example 7:
-
-Enter cells: _O_X__X_X
----------
+| X   X |
 |   O   |
 | X     |
-| X   X |
 ---------
-Impossible
-Example 8:
+Example 2: 
 
-Enter cells: _OOOO_X_X
+Enter cells: _XXOO_OX_
 ---------
-|   O O |
+|   X X |
 | O O   |
-| X   X |
+| O X   |
 ---------
-Impossible
+Enter the coordinates: 1 3
+---------
+| X X X |
+| O O   |
+|"q     §
+| O X   |
+---------
+Example 3: 
+
+Enter cells: _XXOO_OX_
+---------
+|   X X |
+| O O   |
+| O X   |
+---------
+Enter the coordinates: 3 1
+---------
+|   X X |
+| O O   |
+| O X X |
+---------
+Example 4:
+
+Enter cells: _XXOO_OX_
+---------
+|   X X |
+| O O   |
+| O X   |
+---------
+Enter the coordinates: 3 2
+---------
+|   X X |
+| O O X |
+| O X   |
+---------
+Example 5:
+
+Enter cells: _XXOO_OX_
+---------
+|   X X |
+| O O   |
+| O X   |
+---------
+Enter the coordinates: 1 1
+This cell is occupied! Choose another one!
+Enter the coordinates: 1 3
+---------
+| X X X |
+| O O   |
+| O X   |
+---------
+Example 6:
+
+Enter cells: _XXOO_OX_
+---------
+|   X X |
+| O O   |
+| O X   |
+---------
+Enter the coordinates: one
+You should enter numbers!
+Enter the coordinates: one three
+You should enter numbers!
+Enter the coordinates: 1 3
+---------
+| X X X |
+| O O   |
+| O X   |
+---------
+Example 7:
+
+Enter cells: _XXOO_OX_
+---------
+|   X X |
+| O O   |
+| O X   |
+---------
+Enter the coordinates: 4 1
+Coordinates should be from 1 to 3!
+Enter the coordinates: 1 4
+Coordinates should be from 1 to 3!
+Enter the coordinates: 1 3
+---------
+| X X X |
+| O O   |
+| O X   |
+---------

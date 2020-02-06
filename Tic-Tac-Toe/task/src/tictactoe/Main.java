@@ -32,30 +32,10 @@ public class Main {
         while (readXO.length() != 9);
 
 
-        countXO(readXO);
-        if ((keepNumberO == 3 && keepNumberX == 3 && keepNumberSpace <= 2)
-                || (keepNumberO > keepNumberX && keepNumberSpace == 2)
-                || (keepNumberX > keepNumberO && keepNumberSpace == 2)
-                || (keepNumberX > keepNumberO && keepNumberSpace > 2)
-                || keepNumberO > keepNumberX && keepNumberSpace > 2) {
-            printOutput(readXO);
-            System.out.println("Impossible");
 
-        } else if (readXO.contains("_") && !(conditionWin(readXO))) {
-            printOutput(readXO);
-            System.out.println("Game not finished");
+    }
+    static void coordintes(String readXO){
 
-        } else if (!(readXO.contains("_")) && !(conditionWin(readXO))) {
-            printOutput(readXO);
-            System.out.println("Draw");
-
-        } else if (keepNumberO == 3 || keepNumberX == 3 || !readXO.contains("_")) {
-            printOutput(readXO);
-            conditionWin(readXO);
-            System.out.println(win + " wins");
-
-
-        }
 
 
     }
