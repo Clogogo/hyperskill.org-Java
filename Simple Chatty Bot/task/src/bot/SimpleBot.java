@@ -54,7 +54,7 @@ public class SimpleBot {
             + "3. To determine the execution time of a program. \n"
             + "4. To interrupt the execution of a program.");
     int choice = scanner.nextInt();
-    if (choice == 4 || choice == 3 || choice == 1) {
+    if (choice != 2) {
       System.out.println("Please, try again.");
     } else {
       System.out.println("Congratulations, have a nice day!");
